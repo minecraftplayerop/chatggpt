@@ -1,6 +1,5 @@
-// game.js
 var secretNumber = Math.floor(Math.random() * 10) + 1;
-var attempts = 3;
+var attempts = 7;
 
 function guessNumber() {
     var userGuess = prompt("Guess the number (between 1 and 10):");
@@ -19,4 +18,5 @@ function guessNumber() {
     }
 }
 
+// Call the guessNumber function when the page loads
 guessNumber();
